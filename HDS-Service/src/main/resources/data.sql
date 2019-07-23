@@ -7,8 +7,6 @@ CREATE TABLE employee_info (
   career VARCHAR(250) DEFAULT NULL
 );
  
-INSERT INTO billionaires (first_name, last_name, career) VALUES
-  ('Aliko', 'Dangote', 'Billionaire Industrialist'),
-  ('Bill', 'Gates', 'Billionaire Tech Entrepreneur'),
-  ('Folrunsho', 'Alakija', 'Billionaire Oil Magnate'),
-  ('Aliko', 'Dangote', 'Billionaire Industria);
+INSERT INTO employee_info (id, first_name, last_name, career) VALUES
+  (1, 'Naveen', 'Selvaraj', 'Development Manager'),
+  (2, 'Vignesh', 'V', 'Developer');
